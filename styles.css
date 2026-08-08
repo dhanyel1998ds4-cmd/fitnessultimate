@@ -755,6 +755,62 @@ html, body { overflow-x: hidden; }
   .bonus-stack img:nth-child(3) { left: 30px; bottom: 0; }
 }
 
+@media (min-width: 761px) {
+  .why {
+    padding-top: 28px;
+    padding-bottom: 36px;
+  }
+  .why-stage {
+    min-height: 740px;
+    margin-top: 58px;
+    transform: translateX(40px);
+  }
+  .why .why-stage.reveal {
+    transform: translate(40px, 30px);
+  }
+  .why .why-stage.reveal.is-visible {
+    transform: translateX(40px);
+  }
+  .why-point {
+    color: #f1f1f1;
+  }
+  .why-point p {
+    color: #d7d7d7;
+  }
+  .point-a { left: 0; top: 416px; }
+  .point-b { left: 35px; top: 547px; }
+  .point-c { right: -7px; top: 29px; }
+  .point-d { right: -7px; top: 161px; }
+  .point-a::after,
+  .point-b::after {
+    right: -130px;
+    width: 116px;
+  }
+  .point-c::after {
+    left: -90px;
+    width: 68px;
+  }
+  .point-d::after {
+    left: -150px;
+    width: 128px;
+  }
+  .why-point::before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    top: 5px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 0 8px rgba(255,255,255,.2);
+  }
+  .point-a::before,
+  .point-b::before { right: -123px; }
+  .point-c::before { left: -97px; }
+  .point-d::before { left: -157px; }
+}
+
 /* Testimonial composition matched to the original Hyperfit reference. */
 .stars {
   display: flex;
