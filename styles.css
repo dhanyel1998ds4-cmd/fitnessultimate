@@ -812,6 +812,32 @@ html, body { overflow-x: hidden; }
 }
 
 @media (min-width: 1101px) {
+  .about {
+    padding-bottom: 70px;
+    background: linear-gradient(to bottom, #111 0 68px, #000 68px 100%);
+  }
+  .about .audience-strip {
+    margin-bottom: 98px;
+  }
+  .about .section-heading > p:not(.eyebrow) {
+    width: 480px;
+  }
+  .about .stats-pill {
+    margin-top: 57px;
+    margin-bottom: 61px;
+    color: #f1f1f1;
+  }
+  .about .stats-pill i {
+    color: #f1f1f1;
+  }
+  .about .about-gallery {
+    width: 1060px;
+    gap: 20px;
+  }
+  .about .partners {
+    margin-top: 68px;
+  }
+
   .product-hero,
   .product-hero .hero-content {
     min-height: 1000px;
