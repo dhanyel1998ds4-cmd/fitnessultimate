@@ -1,0 +1,11 @@
+{
+  "name": "hyperfit-pixel-perfect",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive Hyperfit fitness landing page with motion and interaction.",
+  "scripts": {
+    "dev": "node server.cjs",
+    "start": "node server.cjs",
+    "check": "node --check app.js && node --check server.cjs"
+  }
+}
