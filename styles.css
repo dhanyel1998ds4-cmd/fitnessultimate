@@ -675,7 +675,48 @@ html, body { overflow-x: hidden; }
   .use-case-row span { white-space: normal; }
 
   .services .service-card { min-height: 285px; }
-  .program-grid { margin-top: 22px; row-gap: 34px; }
+  .programs-section { padding-top: 93px; }
+  .programs-section .section-heading {
+    width: 420px;
+    max-width: 100%;
+  }
+  .programs-section .section-heading h2 {
+    font-size: 32px;
+    line-height: 1.08;
+  }
+  .programs-section .section-heading > p:not(.eyebrow) {
+    width: 420px;
+    max-width: 100%;
+    margin-top: 28px;
+    font-size: 16px;
+    line-height: 1.28;
+  }
+  .programs-section .feature-pill {
+    margin-top: 63px;
+    margin-bottom: 65px;
+    color: #f1f1f1;
+    gap: 22px;
+  }
+  .programs-section .feature-pill div {
+    min-height: 46px;
+    display: grid;
+    grid-template-columns: 80px minmax(0, 1fr);
+    align-items: center;
+    gap: 24px;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: -.02em;
+  }
+  .programs-section .feature-pill i {
+    width: 80px;
+    color: #f1f1f1;
+    font-size: 30px;
+    line-height: 1;
+    text-align: center;
+  }
+  .programs-section .feature-pill br { display: none; }
+  .program-grid { width: calc(100% + 4px); max-width: none; margin-top: 0; margin-left: -4px; row-gap: 34px; }
+  .program-grid .trainer-photo > img { border-radius: 11px; }
   .program-grid .trainer-card { min-height: 0; }
   .program-grid .trainer-card h3 { min-height: 0; }
   .program-grid .trainer-overlay a { padding: 13px 19px; }
