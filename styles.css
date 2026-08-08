@@ -811,6 +811,75 @@ html, body { overflow-x: hidden; }
   .point-d::before { left: -157px; }
 }
 
+@media (min-width: 1101px) {
+  .bonus-promo.app-promo {
+    left: -36px;
+    width: 1150px;
+    max-width: calc(100% - 80px);
+    height: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+  }
+  .bonus-promo .app-bg {
+    border-radius: 16px;
+  }
+  .bonus-promo .app-copy {
+    width: 62%;
+    padding-left: 40px;
+    transform: translateY(-20px);
+  }
+  .bonus-promo .app-copy .eyebrow {
+    margin-bottom: 10px;
+  }
+  .bonus-promo .app-copy h2 {
+    font-size: 40px;
+    line-height: .96;
+  }
+  .bonus-promo .app-copy > p {
+    max-width: 560px;
+    margin-top: 18px;
+    font-size: 15px;
+  }
+  .bonus-promo .app-benefits {
+    grid-template-columns: 210px minmax(0, 1fr);
+    margin-top: 56px;
+    gap: 16px 20px;
+    font-size: 14px;
+  }
+  .bonus-promo .app-benefits span:nth-child(4) {
+    grid-column: 1;
+  }
+  .bonus-promo .app-benefits span {
+    gap: 8px;
+    min-width: 0;
+    white-space: nowrap;
+  }
+  .bonus-promo .app-benefits span::before {
+    flex-basis: 18px;
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+  }
+  .bonus-promo .bonus-cta {
+    margin-top: 38px;
+  }
+  .bonus-stack {
+    right: 10.4%;
+    bottom: 2px;
+    width: 430px;
+    height: 520px;
+  }
+  .bonus-stack img {
+    width: 330px;
+    height: 220px;
+    border-width: 7px;
+    border-radius: 16px;
+  }
+  .bonus-stack img:nth-child(1) { top: 18px; }
+  .bonus-stack img:nth-child(2) { top: 92px; }
+}
+
 /* Testimonial composition matched to the original Hyperfit reference. */
 .stars {
   display: flex;
